@@ -17,7 +17,7 @@ def  main():
 print("Arithmetic Operation")
 num1 = float(input(10))
 num2 = float(input(5))
-operation = input('add'('add', 'subtract', 'multiply', 'divide'): ).strip().lower()
+operation = input('10, 5')('add', 'subtract', 'multiply', 'divide'): ).strip().lower()
 result = perform_operation(10, 5, 'add')
 print(f"Result: {result}")
 if --name-- == "--main--":
