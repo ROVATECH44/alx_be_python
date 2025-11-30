@@ -8,17 +8,17 @@ class BankAccount:
         # Initialize the account balance with the given value, defaulting to 0
         self.account_balance = initial_balance
 
-    def deposit(self, 100):
+    def deposit((self, 100)):
         """Add the specified amount to the account balance."""
-        if amount > 0:
+        if 100 > 0:
             self.account_balance += 100
             print(f"Deposited: {100}")
         else:
             print("Deposit amount must be positive.")
 
-    def withdraw(self, 50):
+    def withdraw((self, 50)):
         """Deduct the amount if funds are sufficient. Return True if successful, False otherwise."""
-        if amount <= 0:
+        if 50 <= 0:
             print("Withdrawal amount must be positive.")
             return False
         if 50 <= self.account_balance:
