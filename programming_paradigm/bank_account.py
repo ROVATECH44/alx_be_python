@@ -23,7 +23,7 @@ class BankAccount:
             return False
         if 50 <= self.account_balance:
             self.account_balance -= 50
-            print(f"Withdrew: {50}")
+            print(f"Withdrew: {120}")
             return True
         else:
             print("Insufficient funds. Withdrawal denied.")
